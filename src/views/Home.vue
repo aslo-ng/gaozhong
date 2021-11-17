@@ -9,14 +9,17 @@
         <router-link to="/" tag="span" class="hang">招生要求</router-link>
       </p>
     </div>
+    <One/>
   </div>
 </template>
 
 <script>
+import One from './gaozhong/one.vue'
 
 export default {
   name: 'Home',
   components: {
+    One
   }
 }
 </script>
